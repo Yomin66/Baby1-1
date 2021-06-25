@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Baby1">
         <activity android:name=".GameMainActivity"></activity>
-        <activity android:name=".ColMainActivity" />
         <activity android:name=".AniMainActivity" />
         <activity android:name=".ShaMainActivity" />
         <activity android:name=".VegMainActivity" />

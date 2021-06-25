@@ -20,14 +20,14 @@
         app:srcCompat="@drawable/back14" />
 
     <ImageButton
-        android:id="@+id/sha1_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound1"
+        android:id="@+id/ani1_btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/sha4_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sha2_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani2_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,64 +35,64 @@
         app:srcCompat="@drawable/veg1" />
 
     <TextView
-        android:id="@+id/sha1_text"
-        android:layout_width="120dp"
+        android:id="@+id/ani1_text"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="馬鈴薯"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha2_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sha1_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/ani1_btn" />
 
     <ImageButton
-        android:id="@+id/sha2_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound2"
+        android:id="@+id/ani2_btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/sha3_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
         app:srcCompat="@drawable/veg2" />
 
     <TextView
         android:id="@+id/sha2_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="瓠瓜"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha3_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
-        app:layout_constraintTop_toBottomOf="@+id/sha2_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ani2_btn" />
 
     <ImageButton
         android:id="@+id/sha3_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/sha8_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha2_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/veg3" />
 
     <TextView
         android:id="@+id/sha3_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="番茄"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha8_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sha2_text"
@@ -100,9 +100,9 @@
 
     <ImageButton
         android:id="@+id/sha4_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/sha7_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -112,11 +112,11 @@
 
     <TextView
         android:id="@+id/sha4_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="白菜"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha7_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,9 +124,9 @@
 
     <ImageButton
         android:id="@+id/sha5_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/sha6_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -136,11 +136,11 @@
 
     <TextView
         android:id="@+id/sha5_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="洋蔥"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha6_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sha7_text"
@@ -148,9 +148,9 @@
 
     <ImageButton
         android:id="@+id/sha6_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -160,11 +160,11 @@
 
     <TextView
         android:id="@+id/sha6_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="南瓜"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sha5_text"
@@ -172,9 +172,9 @@
 
     <ImageButton
         android:id="@+id/sha7_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound7"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/sha5_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -184,11 +184,11 @@
 
     <TextView
         android:id="@+id/sha7_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="紅椒"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/sha5_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sha4_text"
@@ -196,9 +196,9 @@
 
     <ImageButton
         android:id="@+id/sha8_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound8"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -210,11 +210,11 @@
 
     <TextView
         android:id="@+id/sha8_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="花椰菜"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sha3_text"
@@ -225,6 +225,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="240dp" />
+        app:layout_constraintGuide_begin="224dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

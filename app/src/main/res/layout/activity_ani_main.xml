@@ -13,19 +13,21 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/back14" />
 
     <ImageButton
-        android:id="@+id/sha1_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound1"
+        android:id="@+id/ani1_btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/ani4_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sha2_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani2_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,64 +35,64 @@
         app:srcCompat="@drawable/ani1" />
 
     <TextView
-        android:id="@+id/sha1_text"
-        android:layout_width="120dp"
+        android:id="@+id/ani1_text"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="貓"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani2_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sha1_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/ani1_btn" />
 
     <ImageButton
-        android:id="@+id/sha2_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound2"
+        android:id="@+id/ani2_btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/ani3_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
         app:srcCompat="@drawable/ani2" />
 
     <TextView
         android:id="@+id/ani2_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="狗"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani3_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
-        app:layout_constraintTop_toBottomOf="@+id/sha2_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ani2_btn" />
 
     <ImageButton
         android:id="@+id/ani3_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/ani8_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha2_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/ani3" />
 
     <TextView
         android:id="@+id/ani3_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="無尾熊"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani8_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani2_text"
@@ -98,9 +100,9 @@
 
     <ImageButton
         android:id="@+id/ani4_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/ani7_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -110,11 +112,11 @@
 
     <TextView
         android:id="@+id/ani4_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="老鼠"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani7_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -122,9 +124,9 @@
 
     <ImageButton
         android:id="@+id/ani5_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/ani6_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -134,11 +136,11 @@
 
     <TextView
         android:id="@+id/ani5_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="貓頭鷹"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani6_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani7_text"
@@ -146,9 +148,9 @@
 
     <ImageButton
         android:id="@+id/ani6_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -158,11 +160,11 @@
 
     <TextView
         android:id="@+id/ani6_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="豹"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani5_text"
@@ -170,9 +172,9 @@
 
     <ImageButton
         android:id="@+id/ani7_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound7"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/ani5_btn"
         app:layout_constraintHorizontal_bias="0.5"
@@ -182,11 +184,11 @@
 
     <TextView
         android:id="@+id/ani7_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="企鵝"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ani5_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani4_text"
@@ -194,9 +196,9 @@
 
     <ImageButton
         android:id="@+id/ani8_btn"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:onClick="playSound8"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="StartPlay"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -208,11 +210,11 @@
 
     <TextView
         android:id="@+id/ani8_text"
-        android:layout_width="120dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="老虎"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani3_text"
@@ -223,6 +225,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="240dp" />
+        app:layout_constraintGuide_begin="224dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
